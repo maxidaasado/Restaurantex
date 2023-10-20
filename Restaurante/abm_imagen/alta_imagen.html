@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{background-color: #19d6cd; width: 25%; margin: auto; }
+    
+    </style>
+</head>
+<body>
+    <form action="alta_imagen.php" method="post">
+   
+    <fieldset> 
+          
+        <legend>Crear Imagen</legend>
+        <input type="file" name="foto" value="Cargar Imagen" accept=".jpg, .png, .svg" >
+        <input type="text" name="nombre de foto" placeholder="Nombre de la Imagen"><br>
+        <select name="" id="">
+            <option value="0" selected>Elegir</option>
+            <option value="1" >--DEFECTO--</option>
+            <option value="1">PRUEBA</option>
+
+        </select>
+
+        <input type="submit" value="Agregar Imagen">
+
+    </fieldset>
+   
+    </form>
+    
+</body>
+</html>
